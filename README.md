@@ -18,7 +18,7 @@ cd soccereid
 ```
 ### 2. Create a python environment
 ```
-conda create -n soccereid python=3.10 -y
+conda create -n soccereid python=3.11
 conda activate soccereid
 ```
 ### 3. Install dependencies
