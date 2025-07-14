@@ -6,7 +6,7 @@ import torch.nn.functional as F
 import cv2
 
 class ReIDFeatureExtractor:
-    def __init__(self, model_path, device='mps'):
+    def __init__(self, model_path, device='cpu'):
         self.extractor = FeatureExtractor(
             model_name='osnet_x1_0',
             model_path=model_path,
