@@ -26,7 +26,7 @@ conda activate soccereid
 pip install -r requirements.txt
 
 ```
-### 4. Install torchreid using instructions at [TorchReid](https://github.com/KaiyangZhou/deep-person-reid.git)
+### 4. Install torchreid using instructions at [TorchReid](https://github.com/KaiyangZhou/deep-person-reid.git) but do NOT reinstall torch or torchvision as any other version than requirements.txt may result in errors.
 ### 5. Update model paths in config accordingly and run using:
 ```
 python main.py
