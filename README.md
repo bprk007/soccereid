@@ -24,8 +24,10 @@ conda activate soccereid
 ### 3. Install dependencies
 ```
 pip install -r requirements.txt
+
 ```
-### 4. Update model paths in config accordingly and run using:
+### 4. Install torchreid using instructions at [TorchReid](https://github.com/KaiyangZhou/deep-person-reid.git)
+### 5. Update model paths in config accordingly and run using:
 ```
 python main.py
 ```
